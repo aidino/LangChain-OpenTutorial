@@ -26,11 +26,11 @@ from langchain_core.output_parsers import StrOutputParser
 
 import sys
 import os
-current_dir = os.path.dirname(os.path.abspath(__file__))
-parent_dir = os.path.dirname(current_dir)
-sys.path.append(parent_dir)
+# current_dir = os.path.dirname(os.path.abspath(__file__))
+# parent_dir = os.path.dirname(current_dir)
+# sys.path.append(parent_dir)
 
-from helper_functions import (
+from helper import (
     create_question_answer_from_context_chain,
     answer_question_from_context,
     retrieve_context_per_question

@@ -1,3 +1,6 @@
 langchain
 langchain-ollama
 langchain_community
+rank-bm25
+pymupdf
+deepeval
