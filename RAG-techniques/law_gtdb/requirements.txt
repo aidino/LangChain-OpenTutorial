@@ -1,5 +1,6 @@
 langchain
 langchain-ollama
+langchain-chroma
 langchain_community
 rank-bm25
 pymupdf
